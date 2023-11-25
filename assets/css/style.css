@@ -265,3 +265,87 @@ body {
 .service-desc button {
     margin-top: 55px;
 }
+
+/**  Intro-services  **/
+.intro-services {
+    height: 826px;
+    background: #f6fbff;
+}
+
+.intro-desc {
+    padding-top: 100px;
+}
+
+.intro-desc h2 {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.intro-desc p {
+    margin-top: 18px;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66;
+    width: 468px;
+}
+
+.intro-items {
+    display: flex;
+    margin-top: 86px;
+    justify-content: space-between;
+}
+
+.intro-items .items {
+    width: 370px;
+    height: 402px;
+    border-radius: 4px;
+    background: #fff;
+    border: 16px solid #eaf6ff;
+}
+
+.intro-items .items:first-child {
+    border: 16px solid #2e80ce;
+    margin-top: -16px;
+}
+
+.intro-items .items img {
+    margin-top: 43px;
+    margin-left: 42px;
+}
+
+.item-info {
+    margin-left: 42px;
+}
+
+.item-info .main-title {
+    color: #10375c;
+    margin-top: 18px;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+}
+
+.item-info .sub-title {
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    width: 254px;
+    margin-top: 28px;
+}
+
+.item-info .last-title {
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-top: 18px;
+}
+
+.intro-items .items:first-child .item-info .last-title {
+    color: #2e80ce;
+}
