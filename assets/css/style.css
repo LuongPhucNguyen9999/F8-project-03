@@ -196,7 +196,6 @@ body {
 .service-content {
     margin-top: 70px;
     display: flex;
-
     justify-content: space-between;
 }
 
@@ -348,4 +347,168 @@ body {
 
 .intro-items .items:first-child .item-info .last-title {
     color: #2e80ce;
+}
+
+/*** Features ***/
+.features {
+    margin-top: 170px;
+    margin-bottom: 170px;
+    position: relative;
+    display: flex;
+    height: 491px;
+}
+
+.features-img {
+    width: 570px;
+}
+
+.features .img1 {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
+    object-fit: cover;
+}
+
+.features .img {
+    position: absolute;
+    top: 121px;
+    left: 238px;
+}
+
+.features-desc {
+    width: 470px;
+    margin-top: 82px;
+    margin-left: 130px;
+}
+
+.features-desc h2 {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.features-desc p {
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66;
+    margin-top: 18px;
+}
+
+.features-desc button {
+    margin-top: 38px;
+}
+
+/*** Team ***/
+.team {
+    height: 686px;
+    margin-bottom: 265px;
+}
+
+.team-info h2 {
+    color: #10375c;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.team-info button {
+    margin-top: 38px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.team-img {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.team-img .item {
+    width: 270px;
+    height: 318px;
+    border-radius: 6px;
+    background: #eaf6ff;
+}
+
+.team-img img {
+    padding: 28px 4px 0;
+}
+
+.team-img h4 {
+    color: #10375c;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.team-img p {
+    color: #575f66;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.85;
+}
+
+.next-page {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 104px;
+}
+
+/*** cta ***/
+.cta {
+    height: 427px;
+    background: #2e80ce;
+    display: flex;
+    /* align-items: center; */
+}
+
+.main-img {
+    margin-left: 70px;
+}
+
+.main-img img {
+    display: block;
+    margin-top: -95px;
+}
+
+.cta-info {
+    margin-top: 76px;
+    margin-left: 160px;
+}
+
+.cta-info h2 {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    width: 489px;
+}
+
+.cta-info p {
+    color: #fff;
+    margin-top: 18px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66;
+    width: 586px;
+}
+
+.cta-info .cta-action {
+    margin-top: 38px;
+}
+
+.cta-info .cta-action img + img {
+    margin-left: 28px;
 }
