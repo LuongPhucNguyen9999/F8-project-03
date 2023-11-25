@@ -10,3 +10,258 @@ body {
     font-size: 1.6rem;
     font-family: "Sora", sans-serif;
 }
+
+.content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    width: 205px;
+    height: 60px;
+    border-radius: 30px;
+    background: #2e80ce;
+    color: #fff;
+    border: none;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+/** Header **/
+.header {
+    background: #10375c;
+    height: 800px;
+}
+
+.nav {
+    width: 1170px;
+    position: absolute;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    position: relative;
+    margin-left: 318px;
+    width: 363px;
+}
+
+.nav-list::before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 6px;
+    top: 11px;
+    left: -11px;
+}
+
+.nav-list li {
+    margin-right: 42px;
+}
+
+.nav-list li a {
+    color: #c9d2da;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    text-decoration: none;
+}
+
+.nav-list li:first-child a {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.nav .cta-btn {
+    display: flex;
+    align-items: center;
+    margin-left: 222px;
+}
+
+.nav .cta-btn p {
+    color: #c9d2da;
+    text-align: right;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    /* height: 28px; */
+}
+
+.nav .cta-btn button {
+    width: 104px;
+    height: 44px;
+    margin-left: 28px;
+    font-size: 1.6rem;
+}
+
+/** Hero**/
+.hero {
+    display: flex;
+    margin-top: 150px;
+    float: left;
+}
+
+.hero-desc,
+.hero-img {
+    width: 50%;
+    flex: 1;
+}
+
+.hero-desc {
+    padding-top: 60px;
+}
+
+.hero-desc h1 {
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1.14;
+    letter-spacing: -1.4px;
+    width: 517px;
+}
+
+.hero-desc > p {
+    color: #c9d2da;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66;
+    margin-top: 22px;
+}
+
+.hero-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.hero-footer p {
+    margin-left: 38px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.hero-img {
+    margin-left: 113px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-img .img {
+    position: absolute;
+    top: 65px;
+    right: -10px;
+    z-index: -1;
+}
+
+/** Service **/
+.service {
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+.service-title h2 {
+    color: #10375c;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.service-title p {
+    margin-top: 18px;
+    color: #575f66;
+    width: 468px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-content {
+    margin-top: 70px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.service-desc {
+    margin-left: 130px;
+    padding-top: 35px;
+    height: 499px;
+}
+
+.service-desc .items {
+    display: flex;
+}
+
+.service-desc .items:first-child {
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1px;
+    border-radius: 10px;
+    width: 470px;
+    height: 128px;
+    background: #fff;
+}
+
+.service-desc .items .img {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    background: #2e80ce;
+    margin: 21px 19px 47px 22px;
+}
+
+.service-desc .items .img2 {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    background: #eff6fd;
+    margin: 21px 19px 47px 22px;
+}
+
+.service-desc .items img {
+    position: absolute;
+    text-align: center;
+    width: 22px;
+    height: 24px;
+    top: 18px;
+    left: 19px;
+}
+
+.service-desc .items figcaption h3 {
+    margin-top: 21px;
+    color: #10375c;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.service-desc .items figcaption p {
+    margin-top: 8px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    width: 351px;
+}
+
+.service-desc button {
+    margin-top: 55px;
+}
