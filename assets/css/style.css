@@ -512,3 +512,83 @@ body {
 .cta-info .cta-action img + img {
     margin-left: 28px;
 }
+
+/**** Blog ****/
+.blog {
+    margin-top: 170px;
+    margin-bottom: 170px;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-info {
+    margin-top: 68px;
+}
+
+.blog-info h2 {
+    color: #10375c;
+    width: 470px;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.blog-info p {
+    color: #10375c;
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.55;
+    text-decoration-line: underline;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.blog-list {
+    display: flex;
+    gap: 30px;
+}
+
+.blog-items {
+    width: 270px;
+    height: 375px;
+    border-radius: 12px;
+    border: 1px solid #e8ebee;
+    background: #fff;
+}
+
+.blog-items figcaption {
+    margin-top: 18px;
+    margin-left: 22px;
+}
+
+.blog-items h3 {
+    margin-top: 18px;
+    color: #10375c;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 224px;
+    line-height: 1.62;
+}
+
+.blog-items p {
+    color: #575f66;
+    width: 226px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.71;
+    margin-top: 10px;
+}
+
+.blog-items .last-desc {
+    color: #10375c;
+    margin-top: 12px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.blog-list .blog-items:last-child .last-desc {
+    color: #2e80ce;
+}
