@@ -592,3 +592,156 @@ body {
 .blog-list .blog-items:last-child .last-desc {
     color: #2e80ce;
 }
+
+/*** Contact ***/
+.contact {
+    height: 452px;
+    background: #f6fbff;
+    margin-bottom: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    color: #10375c;
+    width: 813px;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.contact hr {
+    margin-top: 18px;
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+    border: none;
+}
+.contact p {
+    margin-top: 18px;
+    color: #575f66;
+    width: 617px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.contact button {
+    margin-top: 38px;
+}
+
+/*** Footer ***/
+.footer {
+    background: #10375c;
+    height: 553px;
+}
+
+.footer-info {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    gap: 78px;
+}
+
+.footer-info figcaption {
+    color: #a9b3bb;
+    margin-top: 21px;
+    font-family: Open Sans;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    width: 336px;
+}
+
+.footer-info .info2 h3 {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.footer-info .info2 li a,
+.footer-info .info2 p {
+    color: #a9b3bb;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.info-above ul {
+    margin-top: 20px;
+}
+
+.info-above ul li {
+    margin-top: 10px;
+}
+
+.last-info {
+    margin-top: 28px;
+}
+
+.last-info .last {
+    width: 273px;
+    margin-top: 20px;
+    color: #a9b3bb;
+    font-family: Open Sans;
+    font-size: 1.6rem !important;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.last-info .row {
+    display: flex;
+    margin-top: 10px;
+}
+
+.last-info .row input {
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    background-color: #10375c;
+}
+
+.last-info .row button {
+    width: 108px;
+    height: 46px;
+    border-radius: 4px;
+    background: #2e80ce;
+    margin-left: 12px;
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.85;
+}
+
+.footer hr {
+    margin-top: 28px;
+    border: none;
+    width: 1170px;
+    height: 1px;
+    background: #406181;
+}
+
+.footer-cr {
+    margin-top: 28px;
+}
+
+.footer-cr p {
+    color: #aab3ba;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+
+    font-weight: 400;
+    line-height: 1.85;
+}
